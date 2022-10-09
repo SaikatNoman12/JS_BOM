@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript BOM Window Popup Alert</title>
+
+
+    <style>
+        button,
+        div {
+            font-size: 30px;
+            font-weight: 500;
+            color: #000;
+            font-family: monospace;
+        }
+
+        div{
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use BOM window alert() popup -->
+    <div>
+        <button type="btn" onclick="onShowAlert()">Show Alert</button>
+    </div>
+
+    <br>
+
+    <!-- use BOM window confirm() popup alert -->
+    <div>
+        <button type="button" onclick="onShowConfirmAlert()">Show Confirm Alert</button>
+
+        <br>
+
+        <div id="confirmText"></div>
+    </div>
+
+
+    <br>
+
+    <!-- use BOM window prompt() popup alert -->
+    <div>
+        <button type="button" onclick="onShowPromptAlert()">Show Prompt Alert</button>
+        <div id="promptText"></div>
+    </div>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
