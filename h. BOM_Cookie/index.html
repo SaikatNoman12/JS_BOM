@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript BOM window Cookie</title>
+
+
+    <style>
+        div,
+        button {
+            font-size: 30px;
+            font-family: monospace;
+            font-weight: 500;
+            color: #000;
+            margin: 30px 0px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div>
+
+        <!-- set cookie -->
+        <button type="button" onclick="setCookie('name', 'Amir Khan', 4)">Set name Cookie</button>
+
+        <br>
+
+        <!-- set cookie -->
+        <button type="button" onclick="setCookie('username', 'Sundor Picai', 5)">Set username Cookie</button>
+
+        <br>
+
+        <button type="button" onclick="console.log(getCookie('name'));">Get name Cookie</button>
+
+        <br>
+
+        <button type="button" onclick="getCookie('username')">Get username Cookie</button>
+
+        <br>
+
+        <button type="button" onclick="checkCookie('username')">Check username Cookie</button>
+
+        <br>
+
+        <button type="button" onclick="checkCookie('age')">Check age Cookie</button>
+
+
+    </div>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>

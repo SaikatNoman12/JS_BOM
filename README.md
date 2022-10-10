@@ -12,3 +12,22 @@ Ans: The BOM (Browser Object Model) consists of the objects navigator , history 
 3. Global variables are properties of the window object.
 
 4. Global functions are methods of the window object.
+
+
+### BOM Topics:
+
+1. BOM window object
+   
+2. BOM window screen
+
+3. BOM window location
+
+4. BOM window history
+
+5. BOM window navigator
+
+6. BOM window popup alert
+
+7. BOM window timing event 
+
+8. BOM window cookie
