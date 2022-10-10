@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript BOM Window Timing Event</title>
+
+    <style>
+        div,
+        button {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+            color: #000;
+            margin: 15px 0px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <!-- use BOM window setTimeout(function, milliSecond) & clearTimeout(VarSetTimeout) timing event -->
+    <div>
+
+        <button type="button" onclick="startTimeOut()">Start time text</button>
+
+        <div id="timeout-text">
+            show text
+        </div>
+
+        <button type="button" onclick="stopTimeOut()">Stop time text</button>
+
+    </div>
+
+
+    <!-- use BOM window setInterval(function, milliSecond) & clearInterVal(VarSetTimeout) timing event -->
+     <div>
+
+        <button type="button" onclick="onStartInterval()">Start interval time</button>
+
+        <div id="interval-text">
+            show time
+        </div>
+
+        <button type="button" onclick="onStopInterval()">Stop Interval time</button>
+
+
+     </div>
+
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
